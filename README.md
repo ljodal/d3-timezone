@@ -1,7 +1,28 @@
 # d3-timezone
 Extension to d3 to add support for timezones
 
-# License
+## Requirements
+* d3.js
+* timezoneJS
+
+## How it works
+This extension reads the timezones available in timezoneJS.timezone.zones and adds properties to the respective d3.time objects.
+
+## Status
+_Working_:
+* d3.time.minutes[timezone]
+* d3.time.hours[timezone]
+* d3.time.days[timezone]
+* d3.time.months[timezone]
+
+_Not working_:
+* Weekdays (eg. d3.time.mondays[timezone])
+
+_Unknown_:
+* d3.time.seconds[timezone]
+* d3.time.years[timezone]
+
+## License
 Copyright (C) 2013 Sigurd Ljødal, Markedskraft ASA
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
