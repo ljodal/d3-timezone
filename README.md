@@ -10,10 +10,12 @@ This extension reads the timezones available in timezoneJS.timezone.zones and ad
 
 ## Status
 _Working_:
-* d3.time.minutes[timezone]
-* d3.time.hours[timezone]
 * d3.time.days[timezone]
 * d3.time.months[timezone]
+
+_Probably broken by DST_:
+* d3.time.minutes[timezone]
+* d3.time.hours[timezone]
 
 _Not working_:
 * Weekdays (eg. d3.time.mondays[timezone])
